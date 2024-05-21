@@ -1,1 +1,84 @@
-*, :before, :after {box-sizing:border-box;}
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  margin: 0;
+  padding: 0;
+  background-color: mediumaquamarine;
+}
+
+header nav {
+  display: flex;
+  min-height: 10vh;
+  background-color: white;
+  padding: 4rem;
+  justify-content: space-between;
+}
+
+header img {
+  height: 80vh;
+  min-width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.masthead h1 {
+  color: salmon;
+  font-size: 4rem;
+}
+
+.masthead p {
+  color: grey;
+  font-size: 1.5rem;
+}
+
+header h2 {
+  padding: 2rem;
+  text-transform: uppercase;
+  font-size: 7rem;
+  line-height: 1.2;
+  padding: 4rem;
+  color: white;
+}
+
+.search {
+  min-height: 80vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+}
+
+form label {
+  background-color: white;
+  min-height: 15vh;
+}
+
+.address {
+  border-bottom: 4px solid lightgrey;
+}
+
+.btn-find {
+  background-color: orangered;
+  min-height: 10vh;
+  min-width: 40 vw;
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  padding: 0.5rem 6rem;
+  margin: 4rem 0;
+  border-radius: 1rem;
+}
